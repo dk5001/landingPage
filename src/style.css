@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#canvas3D {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  /* overflow: hidden; */
+}
+
+.page{
+  min-width: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: transparent;
+}
+
+.section{
+  min-height: 100vh;
+  font-size: 20vh;
+  color: blue;
+}
